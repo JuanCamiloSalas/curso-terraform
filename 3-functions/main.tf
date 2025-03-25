@@ -23,7 +23,7 @@ resource "aws_instance" "example" {
 
   ami           = "ami-011899242bb902164" # Ubuntu 20.04 LTS // us-east-1
   instance_type = "t2.micro"
-  subnet_id        = "subnet-024aa4fcf235ba614"
+  subnet_id     = var.subnet_id
 
   tags = {
     ExtraTag = local.extra_tag
