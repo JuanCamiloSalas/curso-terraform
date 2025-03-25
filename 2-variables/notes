@@ -1,3 +1,4 @@
+Como toma Terraform las variables (de menor a mayor importancia):
 Manual
 Default
 Env varts TF_VAR_name
